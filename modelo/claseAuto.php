@@ -57,10 +57,10 @@
         public function MostrarDatos(){
             echo "<--- Auto ---> <br>";
             echo "<hr>";
-            echo "Marca: " . $this->Marca . "<br>";
-            echo "Modelo: " . $this->Modelo . "<br>";
-            echo "Version: " . $this->Version . "<br>";
-            echo "Año: " . $this->Anio . "<br>";
+            echo "Marca: " . $this->getMarca() . "<br>";
+            echo "Modelo: " . $this->getModelo() . "<br>";
+            echo "Version: " . $this->getVersion() . "<br>";
+            echo "Año: " . $this->getAnio() . "<br>";
             echo "<hr>";
         }
 
